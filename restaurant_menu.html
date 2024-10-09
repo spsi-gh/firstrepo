@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pizza Wave</title>
+        <style>
+            #header-img{
+                float: left;
+            }
+            #title{
+                position: relative; left: 20%;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+            }
+            #menuid{
+                background-color: greenyellow;
+            }
+            #orderid{
+                background-color: lightcoral;
+            }
+            .foot{
+                background-color:coral;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img
+                src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbuPYt3O_XkCWfpBVMNGhPqNsNk9NctKVhXQ&s"
+                alt = "Pizza wave"
+                id = "header-img"
+            />
+            <h1 id = "title">Pizza Wave</h1> <br>
+            <nav>
+                <h3><a href = "#menu" id = "menuid">Menu </a></h3>
+                <h3><a href = "#order-form" id = "orderid">Order Form</a></h3>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2 id = "menu"><b><u>Menu</u></b></h2>
+                <hr>
+                <article>
+                    <h3>Cheese Pizza</h3>
+                    <figure>
+                        <img
+                        src = "https://i.ytimg.com/vi/0hyCDmSKTgw/sddefault.jpg"
+                        width="150"
+                        />
+                        <figcaption>Price - $6.00</figcaption>
+                    </figure>
+                    <p>A classic delight with a crispy crust and a generous layer of melted mozzarella, baked to perfection. Simple, cheesy, and utterly irresistible!</p>
+                </article>
+                <br><hr><br>
+                <article>
+                    <h3>Tomato Pizza</h3>
+                    <figure>
+                        <img
+                        src = "https://www.washingtonpost.com/resizer/j2a7EVGBM3sUBBaozu6zEa3c5bU=/arc-anglerfish-washpost-prod-washpost/public/4POBD3HKLII6XIV2HPRR2NESLA.jpg"
+                        width="150"
+                        />
+                        <figcaption>Price - $7.00</figcaption>
+                    </figure>
+                    <p>A fresh and flavorful treat! Topped with juicy, ripe tomatoes and baked on a crispy crust for a burst of natural goodness in every bite. Light, tangy, and deliciously simple!</p>
+                </article>
+                <br><hr><br>
+                <article>
+                    <h3>Onion Pizza</h3>
+                    <figure>
+                        <img
+                        src = "https://3.imimg.com/data3/RR/IE/MY-6739180/hot-tandoori-planet-pizza-250x250.jpg"
+                        width="150"
+                        />
+                        <figcaption>Price - $5.99</figcaption>
+                    </figure>
+                    <p>A savory delight featuring thinly sliced, caramelized onions atop a crispy crust. Each bite offers a sweet, rich flavor that's simple yet satisfying!</p> 
+                </article>
+                <br><hr><br>
+            </section>
+            <section>
+                <h2 id = "order-form"><u>Place your Order</u></h2>
+                <form>
+                    <label for = "cheese_pizza">Cheese Pizza</label>
+                    <input type = "number" min = "0" id = "cheese_pizza"><br><br>
+                    <label for = "tomato_pizza">Tomato Pizza</label>
+                    <input type = "number" min = "0" id = "tomato_pizza"><br><br>
+                    <label for = "onion_pizza">Onion Pizza</label>
+                    <input type = "number" min = "0" id = "onion_pizza"><br><br>
+                    <h2><i>Sides</i></h2>
+                    <input type = "radio" id = "garlic_bread">
+                    <label for = "garlic_bread">Garlic Bread</label><br>
+                    <input type = "radio" id = "veg_burg">
+                    <label for = "veg_burg">Veg Burger</label><br>
+                    <input type = "radio" id = "fries">
+                    <label for = "fries">Fries</label><br>
+                    <input type = "radio" id = "drink">
+                    <label for = "drink">ColdDrink</label><br>
+                    <input type = "radio" id = "Coffee">
+                    <label for = "coffee">Coffee</label><br><br>
+                    <textarea placeholder="Request for Special Order" rows="4" cols="50"></textarea><br><br>
+                    <input type = "submit" value="Go To Checkout">                   
+                </form>
+            </section>
+            <footer class="foot">
+                <p>Made with love by @spsrana200698284</p>
+            </footer>
+        </main>
+    </body>
+</html>
